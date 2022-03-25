@@ -6,7 +6,7 @@ export default function Banner() {
     <div className='px-10 space-y-5'>
       <h1 className='text-6xl max-w-xl font-serif'>
           <span className='underline decoration-black' >ReadMyDoc</span> 
-          is heaven to write, read and share.
+          &nbsp; is heaven to read, write and share.
       </h1>
       <h2 className='' >
           Its free, open and easy to post your thinking on any topic and 
@@ -14,8 +14,8 @@ export default function Banner() {
       </h2>
     </div>
     <img 
-      className='hidden md:inline-flex h-32 lg:h-full'
-      src="https://accountabilitylab.org/wp-content/uploads/2020/03/Medium-logo.png" 
+      className='hidden md:inline-flex h-32 lg:h-full rounded-full px-2'
+      src="./readmydoc-logo.jpg" 
       alt="logo-img" />
   </section>
   )
