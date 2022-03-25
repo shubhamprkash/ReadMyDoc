@@ -10,6 +10,7 @@ const Home: NextPage = () => {
         <title>ReadMyDoc</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <Header/>
 
      <Banner/>
@@ -17,7 +18,12 @@ const Home: NextPage = () => {
 
       
     </div>
-  )
+  );
 }
 
+
 export default Home
+
+export const getServerSideProps = async () =>{
+  
+}
