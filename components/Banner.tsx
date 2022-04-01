@@ -15,7 +15,7 @@ export default function Banner() {
     </div>
     <img 
       className='hidden md:inline-flex h-32 lg:h-full rounded-full px-2'
-      src="./readmydoc-logo.jpg" 
+      src="./logo-removebg.png" 
       alt="logo-img" />
   </section>
   )
