@@ -6,7 +6,7 @@ export default function Banner() {
     <div className='px-10 space-y-5'>
       <h1 className='text-6xl max-w-xl font-serif'>
           <span className='underline decoration-black' >ReadMyDoc</span> 
-          &nbsp; is heaven to read, write and share.
+          &nbsp; is a heaven to read, write and share.
       </h1>
       <h2 className='' >
           Its free, open and easy to post your thinking on any topic and 

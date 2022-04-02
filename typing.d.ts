@@ -1,6 +1,7 @@
 export interface Post{
     _id: string;
-    _createdAt : string;
+    title: string;
+    _createdAt: string;
     author:{
         name:string;
         image: string;
@@ -11,11 +12,8 @@ export interface Post{
             url: string;
         };
     };
-    slug:{
+    slug: {
         current: string;
-
     };
     body: [object];
-        
-
 }
