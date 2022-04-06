@@ -9,7 +9,7 @@ function Header() {
                 <Link href="/">
                     <img 
                     className='w-44 object-contain cursor-pointer rounded-full' 
-                    src="./readmydoc-logo.jpg" 
+                    src="../readmydoc-logo.jpg" 
                     alt="logo-img" 
                     />
                 </Link>
