@@ -29,7 +29,7 @@ console.log(posts)
 
         <Link key={post._id} href={`/post/${post.slug.current}`}>
 
-          <div className='group border rounded-lg overflow-hidden'>
+          <div className='group border rounded-lg overflow-hidden mb-3'>
 
             <img 
               className='h-60 w-full object-cover group-hover:scale-105 transition-transform duration-200 ease-in-out'
