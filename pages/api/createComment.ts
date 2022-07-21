@@ -14,8 +14,8 @@ const config ={
     token: process.env.SANITY_API_TOKEN="skdkRDaXagVECD1I9Fm90Uic52ACF91lpZnuX1Emq3a375BDDHWtcZPWhi0l5C2jRNH8gp4o1Yr4y4chccriWNi9c0EYMA66avgbW8U7MOWW5fx69ghdLJ07DLTFaftkEo4BuixSksvdXcbgtYOTdBWN78iTIMCijOEtZiXYbNXMvvpEkyz5",
 
 };
-const client = sanityClient(config);
 
+const client = sanityClient(config);
 
 
 export default async function createComment(

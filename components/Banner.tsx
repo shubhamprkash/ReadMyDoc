@@ -11,7 +11,7 @@ export default function Banner() {
         </h1>
         <h2 className='' >
             Its free, open and easy to post your thinking on any topic and 
-            connect with millions of readers.
+            share with millions of readers.
         </h2>
       </div>
       <img 

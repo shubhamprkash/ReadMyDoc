@@ -104,7 +104,7 @@ function Post( { post }: Props) {
 
          </article>
 
-         {/* ***************************************   Comment Form here!    ********************************************************************** */}
+{/* ***************************************   Comment Form here!    ********************************************************************** */}
 
          <hr className='max-w-lg my-5 mx-auto border border-yellow-500' />
 
@@ -155,10 +155,10 @@ function Post( { post }: Props) {
              <textarea 
               {...register("comment", {required:true})}
               className='shadow border rounded py-2 px-3 form-textarea mt-1 block w-full ring-yellow-500 outline-none focus:ring' 
-              placeholder=' Comment here........'   
+              placeholder=' Comment here ........'   
               rows={8}/>
            </label>
-            {/* ***************************       Form Validations for Errors ****************************************** */}
+    {/* ***************************  Form Validations for Errors    ****************************************** */}
            <div className='flex flex-col p-5'>
               {errors.name &&(
                 <span className='text-red-500'> - The Name is required!</span>
